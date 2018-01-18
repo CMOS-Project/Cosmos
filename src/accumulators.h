@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_ACCUMULATORS_H
-#define PIVX_ACCUMULATORS_H
+#ifndef CMOS_ACCUMULATORS_H
+#define CMOS_ACCUMULATORS_H
 
 #include "libzerocoin/Accumulator.h"
 #include "libzerocoin/Denominations.h"
@@ -20,6 +20,5 @@ bool LoadAccumulatorValuesFromDB(const uint256 nCheckpoint);
 bool EraseAccumulatorValues(const uint256& nCheckpointErase, const uint256& nCheckpointPrevious);
 uint32_t ParseChecksum(uint256 nChecksum, libzerocoin::CoinDenomination denomination);
 uint32_t GetChecksum(const CBigNum &bnValue);
-bool InvalidCheckpointRange(int nHeight);
 
-#endif //PIVX_ACCUMULATORS_H
+#endif //CMOS_ACCUMULATORS_H

@@ -1,40 +1,39 @@
-PIVX Core
+Cosmos Core
 =====================
 
 Setup
 ---------------------
-[PIVX Core](http://pivx.org/wallet) is the original PIVX client and it builds the backbone of the network. However, it downloads and stores the entire history of PIVX transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[Cosmos Core](http://CosmosCoin.org/wallet) is the original CMOS client and it builds the backbone of the network. However, it downloads and stores the entire history of CMOS transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run PIVX on your native platform.
+The following are some helpful notes on how to run CMOS on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- bin/32/pivx-qt (GUI, 32-bit) or bin/32/pivxd (headless, 32-bit)
-- bin/64/pivx-qt (GUI, 64-bit) or bin/64/pivxd (headless, 64-bit)
+- bin/32/cmos-qt (GUI, 32-bit) or bin/32/cmosd (headless, 32-bit)
+- bin/64/cmos-qt (GUI, 64-bit) or bin/64/cmosd (headless, 64-bit)
 
 ### Windows
 
-Unpack the files into a directory, and then run pivx-qt.exe.
+Unpack the files into a directory, and then run cmos-qt.exe.
 
 ### OSX
 
-Drag PIVX-Qt to your applications folder, and then run PIVX-Qt.
+Drag cmos-qt to your applications folder, and then run cmos-qt.
 
 ### Need Help?
 
-* See the documentation at the [PIVX Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
+* See the documentation at the [CMOS Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [PIVX Forum](http://forum.pivx.org/).
-* Join our Discord server [Discord Server](https://discord.pivx.org)
-* Join one of our Slack groups [PIVX Slack Groups](https://pivx.org/slack-logins/) (Main community is replaced by Discord).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [CMOS Forum](http://forum.CosmosCoin.org/).
+* Join one of our Slack groups [CMOS Slack Groups](https://CosmosCoin.org/slack-logins/).
 
 Building
 ---------------------
-The following are developer notes on how to build PIVX on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build CMOS on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -42,7 +41,7 @@ The following are developer notes on how to build PIVX on your native platform. 
 
 Development
 ---------------------
-The Pivx repo's [root README](https://github.com/PIVX-Project/PIVX/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Cosmos repo's [root README](https://github.com/CMOS-Project/Cosmos/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -56,8 +55,8 @@ The Pivx repo's [root README](https://github.com/PIVX-Project/PIVX/blob/master/R
 
 ### Resources
 
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [PIVX](http://forum.pivx.org/) forum.
-* Join the [PIVX-Dev](https://pivx-dev.slack.com/) Slack group ([Sign-Up](https://pivx-dev.herokuapp.com/)).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [CMOS](http://forum.CosmosCoin.org/) forum.
+* Join the [CMOS-Dev](https://cmos-dev.slack.com/) Slack group ([Sign-Up](https://cmos-dev.herokuapp.com/)).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

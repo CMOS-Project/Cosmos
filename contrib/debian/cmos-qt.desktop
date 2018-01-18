@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Cosmos
+Comment=Cosmos P2P Cryptocurrency
+Comment[fr]=Cosmos, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Cosmos, eşten eşe kriptografik sanal para birimi
+Exec=cmos-qt %u
+Terminal=false
+Type=Application
+Icon=cmos128
+MimeType=x-scheme-handler/cmos;
+Categories=Office;Finance;

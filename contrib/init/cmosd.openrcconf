@@ -1,0 +1,26 @@
+# /etc/conf.d/cmosd: config file for /etc/init.d/cmosd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/cmos/cmos.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/cmosd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/cmosd.pid"
+
+# Where to write cmosd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/cmosd"
+
+# User and group to own cmosd process
+#BITCOIND_USER="cmos"
+#BITCOIND_GROUP="cmos"
+
+# Path to cmosd executable
+#BITCOIND_BIN="/usr/bin/cmosd"
+
+# Nice value to run cmosd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

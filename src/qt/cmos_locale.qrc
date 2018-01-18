@@ -1,0 +1,28 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/cmos_bg.qm</file>
+        <file alias="ca">locale/cmos_ca.qm</file>
+        <file alias="cs">locale/cmos_cs.qm</file>
+        <file alias="da">locale/cmos_da.qm</file>
+        <file alias="de">locale/cmos_de.qm</file>
+        <file alias="en">locale/cmos_en.qm</file>
+        <file alias="en_US">locale/cmos_en_US.qm</file>
+        <file alias="es">locale/cmos_es.qm</file>
+        <file alias="fi">locale/cmos_fi.qm</file>
+        <file alias="fr_FR">locale/cmos_fr_FR.qm</file>
+        <file alias="it">locale/cmos_it.qm</file>
+        <file alias="ja">locale/cmos_ja.qm</file>
+        <file alias="ko_KR">locale/cmos_ko_KR.qm</file>
+        <file alias="nl">locale/cmos_nl.qm</file>
+        <file alias="pl">locale/cmos_pl.qm</file>
+        <file alias="pt">locale/cmos_pt.qm</file>
+        <file alias="pt_BR">locale/cmos_pt_BR.qm</file>
+        <file alias="ro_RO">locale/cmos_ro_RO.qm</file>
+        <file alias="ru">locale/cmos_ru.qm</file>
+        <file alias="sk">locale/cmos_sk.qm</file>
+        <file alias="sv">locale/cmos_sv.qm</file>
+        <file alias="uk">locale/cmos_uk.qm</file>
+        <file alias="zh_CN">locale/cmos_zh_CN.qm</file>
+        <file alias="zh_TW">locale/cmos_zh_TW.qm</file>
+    </qresource>
+</RCC>
